@@ -11,7 +11,7 @@ module.exports = function() {
   }
 
   function setValue(key, newSecret) {
-    key = newKey;
+   secret[key] = newSecret;
   }
 
   return {
